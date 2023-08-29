@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: #3a3d47;
+}
+#cont_gen{
+    width: 1200px;
+    background-color: white;
+    margin: 5px auto;
+}
+header{
+    background-color: #1551a1;
+    overflow: hidden;
+    /* overflow obligar elementos queden donde se requiera */
+}
+#logo{
+    float: left;
+    margin:20px 100px;
+
+}
+nav{
+    float:right;
+    margin: 30px 50px;
+
+}
+nav ul li:hover{
+    background-color: rgb(7, 21, 219);
+    /* resaltar botones */
+    padding: 12px;
+    /* minimice/Aumente botones */
+    cursor:pointer;
+    /* cursor pase sobre li cambie puntero */
+}
+nav ul li{
+    float:left;
+    list-style: none;
+    /* desaparece los puntos que trae por defecto */
+    border: 1px solid white;
+    padding: 5px;
+
+
+
+}
+nav ul li  a{
+    text-decoration: none;
+    /* eliminar linea de abajo */
+    color: white;
+    /* cambio color letra */
+    margin: 25px 10px;  
+}
+
+nav ul li a:hover{
+    color: #ff7600;
+    font-size: 20px;
+}
+
